@@ -1,7 +1,7 @@
 From d09553e8d08de234b25a1ca406c8d93324124fb8 Mon Sep 17 00:00:00 2001
 From: Belen Ramos <brgutierrez@us.es>
 Date: Wed, 8 Jan 2025 09:33:19 +0100
-Subject: [PATCH] Eliminar los archivos .txt creados durante el ejercicio
+Subject: [PATCH 4/5] Eliminar los archivos .txt creados durante el ejercicio
 
 ---
  archivo1.txt | 1 -

@@ -1,0 +1,87 @@
+From 78a83cbabde38e6a8b22c64f0309d9d967368e9f Mon Sep 17 00:00:00 2001
+From: Pavlo-Rods <pablo07113@gmail.com>
+Date: Fri, 10 Jan 2025 17:35:15 +0100
+Subject: [PATCH 5/5] =?UTF-8?q?Creaci=C3=B3n=20del=20parche?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+---
+ ...hivos-.txt-creados-durante-el-ejerci.patch | 65 +++++++++++++++++++
+ 1 file changed, 65 insertions(+)
+ create mode 100644 0001-Eliminar-los-archivos-.txt-creados-durante-el-ejerci.patch
+
+diff --git a/0001-Eliminar-los-archivos-.txt-creados-durante-el-ejerci.patch b/0001-Eliminar-los-archivos-.txt-creados-durante-el-ejerci.patch
+new file mode 100644
+index 0000000..03cb6ff
+--- /dev/null
++++ b/0001-Eliminar-los-archivos-.txt-creados-durante-el-ejerci.patch
+@@ -0,0 +1,65 @@
++From d09553e8d08de234b25a1ca406c8d93324124fb8 Mon Sep 17 00:00:00 2001
++From: Belen Ramos <brgutierrez@us.es>
++Date: Wed, 8 Jan 2025 09:33:19 +0100
++Subject: [PATCH] Eliminar los archivos .txt creados durante el ejercicio
++
++---
++ archivo1.txt | 1 -
++ archivo2.txt | 1 -
++ archivo3.txt | 1 -
++ archivo4.txt | 1 -
++ archivo5.txt | 1 -
++ archivo6.txt | 1 -
++ 6 files changed, 6 deletions(-)
++ delete mode 100644 archivo1.txt
++ delete mode 100644 archivo2.txt
++ delete mode 100644 archivo3.txt
++ delete mode 100644 archivo4.txt
++ delete mode 100644 archivo5.txt
++ delete mode 100644 archivo6.txt
++
++diff --git a/archivo1.txt b/archivo1.txt
++deleted file mode 100644
++index be4b69c..0000000
++--- a/archivo1.txt
+++++ /dev/null
++@@ -1 +0,0 @@
++-cambio 1
++diff --git a/archivo2.txt b/archivo2.txt
++deleted file mode 100644
++index 5ae72fa..0000000
++--- a/archivo2.txt
+++++ /dev/null
++@@ -1 +0,0 @@
++-cambio 2
++diff --git a/archivo3.txt b/archivo3.txt
++deleted file mode 100644
++index 93dc2bf..0000000
++--- a/archivo3.txt
+++++ /dev/null
++@@ -1 +0,0 @@
++-cambio 3
++diff --git a/archivo4.txt b/archivo4.txt
++deleted file mode 100644
++index 3320c4a..0000000
++--- a/archivo4.txt
+++++ /dev/null
++@@ -1 +0,0 @@
++-cambio 4
++diff --git a/archivo5.txt b/archivo5.txt
++deleted file mode 100644
++index d8eeddc..0000000
++--- a/archivo5.txt
+++++ /dev/null
++@@ -1 +0,0 @@
++-cambio 5
++diff --git a/archivo6.txt b/archivo6.txt
++deleted file mode 100644
++index 3071346..0000000
++--- a/archivo6.txt
+++++ /dev/null
++@@ -1 +0,0 @@
++-cambio 6
++-- 
++2.47.1
++
+-- 
+2.47.1
+
